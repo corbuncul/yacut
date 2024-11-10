@@ -1,6 +1,6 @@
 LENGHT_SHOT_LINK = 6
 
-SHORT_LINK_CHECK = r"^[a-zA-Z0-9]{1,16}$"
+SHORT_LINK_CHECK = r'^[a-zA-Z0-9]{1,16}$'
 
 SHORT_LINK_EXIST = 'Предложенный вариант короткой ссылки уже существует.'
 

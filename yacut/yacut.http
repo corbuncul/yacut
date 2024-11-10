@@ -1,6 +1,0 @@
-POST http://127.0.0.1:5000/api/id/
-Content-Type: application/json
-
-{
-    "custom_id": "wergvsdfv"
-}
