@@ -15,7 +15,7 @@ def shortener_view():
     form = URLMapForm()
     if form.validate_on_submit():
         custom_id = form.custom_id.data
-        if (custom_id != '' and custom_id is not None):
+        if custom_id:
             if re.match(SHORT_LINK_CHECK, custom_id) is None:
                 flash(INVALID_NAME)
                 return render_template('shortener.html', form=form)
